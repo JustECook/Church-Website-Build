@@ -13,7 +13,7 @@ body {
 .nav-wrapper {
     display: flex;
     justify-content: space-evenly;
-    padding: 20px;
+    padding: 30px;
     background-color: rgb(33, 119, 219);
 }
 
@@ -24,6 +24,7 @@ body {
     color: white;
     font-weight: 600;
     text-transform: uppercase;
+    font-size: 1.25em;
 }
 
 .nav-wrapper a:hover {
@@ -53,7 +54,17 @@ body {
 .services-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 40px;
+    grid-gap: 80px;
+    padding-bottom: 80px;
+}
+
+.services-wrapper-final-two {
+    display: flex;
+    justify-content: center;
+}
+
+.services-wrapper-final-two img {
+    padding-right: 80px;
 }
 
 .service-wrapper img {
@@ -72,9 +83,9 @@ body {
 /*SUNDAY SERVICES STYLE*/
 .title-wrapper p {
     text-align: center;
-    font-style: italic;
-    font-weight: bolder;
     font-size: 2em;
+    font-weight: 600;
+    font-style: italic;
 }
 
 .title-img-wrapper {
@@ -118,8 +129,98 @@ body {
 .giving-img-wrapper img {
     height: 400px;
     width: auto;
-    padding-top: 50px;
+    padding-top: 20px;
     padding-bottom: 100px;
+}
+
+/*RENTALS STYLES*/
+
+.rentals-img-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.rental-img-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+    padding-bottom: 60px;
+}
+.rental-img-wrapper img {
+    width: 65%;
+    height: auto;
+}
+
+/*FINANCIAL PEACE UNIVERSITY STYLES*/
+
+.financial-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.finacial-img-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.financial-description-wrapper {
+    margin-left: 24%;
+    margin-right: 23%;
+}
+
+.financial-description-wrapper p {
+    font-weight: 600;
+    font-size: 1.15em;
+}
+
+/*GROWZONE STYLES*/
+
+.growzone-img-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.growzone-img-wrapper img {
+    height: 150px;
+    width: auto;
+}
+
+.growzone-info-text-wrapper {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 50px;
+    font-size: 1.15em;
+}
+
+.growzone-text-wrapper {
+    margin-left: 24%;
+    margin-right: 23%;
+    font-weight: 600;
+    font-size: 1.15em;
+}
+/*GODS GIRLS STYLES*/
+
+.GodsGirls-img-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.GodsGirls-img-wrapper img {
+    height: 250px;
+    width: auto;
+}
+
+.GodsGirls-info-text-wrapper {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 50px;
+    font-size: 1.15em;
+}
+
+.GodsGirls-text-wrapper {
+    margin-left: 24%;
+    margin-right: 24%;
+    font-weight: 600;
+    font-size: 1.15em;
 }
 
 /* Footer Section */
@@ -154,8 +255,9 @@ body {
     text-align: center;
 }
 
-.creator-wrapper p {
+.creator-wrapper p, a {
     color: white;
     font-size: .9em;
     padding-top: 25px;
+    text-decoration: underline transparent;
 }
